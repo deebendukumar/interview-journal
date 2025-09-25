@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.9</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.example</groupId>
+    <artifactId>interview-journal</artifactId>
+    <name>interview-journal</name>
+    <version>1.0.0</version>
+
+    <description></description>
+    <url></url>
+    <licenses>
+        <license>
+            <name></name>
+            <url></url>
+            <comments></comments>
+        </license>
+    </licenses>
+    <organization>
+        <name></name>
+        <url></url>
+    </organization>
+    <developers>
+        <developer>
+            <name>Deebendu Kumar</name>
+            <email></email>
+            <organization></organization>
+            <organizationUrl></organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <connection></connection>
+        <developerConnection></developerConnection>
+        <url></url>
+        <tag></tag>
+    </scm>
+    <properties>
+        <java.version>21</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <resource.delimiter>@</resource.delimiter>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <copyright>1998 - 2023</copyright>
+        <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss</maven.build.timestamp.format>
+
+        <org.projectlombok.version>1.18.36</org.projectlombok.version>
+    </properties>
+    <!--
+    If you specify a dependency in the dependencyManagement tag, it simply means that you are making this jar available
+    for the child pom. It would NOT actually download the jar at this point. The child pom will have to provide the
+    groupId and the artifactId explicitly to download and use the jar to compile its classes. Note: you don't have to
+    include the version of the dependency in the child poms.
+    -->
+    <dependencyManagement>
+        <dependencies>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <!--external-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${org.projectlombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.14.0</version>
+        </dependency>
+
+        <!--testing related-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+    </build>
+
+</project>
