@@ -84,14 +84,17 @@ It includes classes like `LocalDate`, `LocalTime`, `LocalDateTime`, `ZonedDateTi
 time manipulation.
 
 ## What is method reference in Java 8?
+
 Method references provide a way to refer to methods without executing them. They are a shorthand notation of a lambda
 expression to call a method. There are four types of method references:
+
 - Reference to a static method
 - Reference to an instance method of a particular object
 - Reference to an instance method of an arbitrary object of a particular type
 - Reference to a constructor
 
 ## What is MetaSpace in Java 8?
+
 MetaSpace is a memory space that stores class metadata. Unlike the previous PermGen space, MetaSpace is not part of the
 heap and can grow dynamically based on the application's needs. This helps to avoid `OutOfMemoryError` related to class
 metadata.

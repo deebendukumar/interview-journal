@@ -197,13 +197,15 @@ an element, and wait for space to become available in the queue when storing an 
 Load Factor in HashMap is a measure that determines when to increase the capacity of the HashMap to maintain efficient
 performance. It is defined as the ratio of the number of elements in the HashMap to its current capacity. The default
 load factor is 0.75, which provides a good balance between time and space cost. When the load factor exceeds this
-threshold, the HashMap is resized to accommodate more elements, which involves rehashing the existing entries to the 
+threshold, the HashMap is resized to accommodate more elements, which involves rehashing the existing entries to the
 new array.
 
 ## What is the diamond operator in Java?
+
 The diamond operator (`<>`) in Java is a shorthand notation introduced in Java 7 that allows for type inference when
 instantiating generic classes. It enables the compiler to infer the type parameters based on the context, reducing
-redundancy and improving code readability. For example, instead of writing `List<String> list = new ArrayList<String>();`,
+redundancy and improving code readability. For example, instead of writing
+`List<String> list = new ArrayList<String>();`,
 you can simply write `List<String> list = new ArrayList<>();`.
 
 
