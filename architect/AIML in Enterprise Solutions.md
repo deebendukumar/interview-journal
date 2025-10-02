@@ -1,19 +1,21 @@
-How do you evaluate the right AI/ML use cases for enterprise apps?
+# AL/ML in Enterprise Solutions Interview Questions
 
-How do you integrate AI models into production systems?
+## How do you evaluate the right AI/ML use cases for enterprise apps?
 
-What challenges have you faced with AI adoption in enterprises?
+## How do you integrate AI models into production systems?
 
-How do you ensure data quality for AI training?
+## What challenges have you faced with AI adoption in enterprises?
 
-Have you worked with AWS AI services (SageMaker, Comprehend, Rekognition)?
+## How do you ensure data quality for AI training?
 
-How do you design APIs around AI/ML services?
+## Have you worked with AWS AI services (SageMaker, Comprehend, Rekognition)?
 
-How do you ensure explainability and fairness in AI systems?
+## How do you design APIs around AI/ML services?
 
-What’s your approach to scaling AI inference in enterprise apps?
+## How do you ensure explainability and fairness in AI systems?
 
-How do you monitor AI/ML models in production?
+## What’s your approach to scaling AI inference in enterprise apps?
 
-How do you future-proof enterprise solutions with AI capabilities?
+## How do you monitor AI/ML models in production?
+
+## How do you future-proof enterprise solutions with AI capabilities?
