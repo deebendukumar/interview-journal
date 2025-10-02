@@ -66,6 +66,7 @@
 
 An approach where a system is built as a suite of small, independently deployable services, each running in its own
 process and communicating through lightweight mechanisms, often HTTP resource APIs.
+
 * Core principles:
     - Single Responsibility: Each microservice focuses on a specific business capability.
     - Independence: Services can be developed, deployed, and scaled independently.
@@ -85,6 +86,52 @@ process and communicating through lightweight mechanisms, often HTTP resource AP
     - Potential for data consistency issues across services.
 
 ## What is event driven architecture and when would you use it?
+
+A design paradigm where system components communicate through the production, detection, and reaction to events,
+enabling
+asynchronous processing and decoupling of components.
+
+* Core principles:
+    - Event Producers: Components that generate events when a state change occurs.
+    - Event Consumers: Components that listen for and react to events.
+    - Event Channels: Mechanisms for transmitting events between producers and consumers (e.g., message queues, event
+      buses).
+    - Asynchronous Communication: Enables non-blocking interactions between components.
+* When to use:
+    - Systems requiring high scalability and responsiveness.
+    - Applications with complex workflows and business processes.
+    - Scenarios needing decoupled components for flexibility and maintainability.
+* Benefits:
+    - Improved scalability and responsiveness.
+    - Enhanced decoupling of components, allowing for independent development and deployment.
+    - Better handling of complex workflows and business processes.
+* Challenges:
+    - Increased complexity in managing event flows and dependencies.
+    - Requires robust monitoring and error handling mechanisms.
+    - Potential for eventual consistency issues in distributed systems.
+
+## What is layered architecture and when would you use it?
+
+A design pattern that organizes a system into distinct layers, each with specific responsibilities, promoting separation
+of concerns and modularity.
+
+* Core principles:
+    - Separation of Concerns: Each layer focuses on a specific aspect of the application (e.g., presentation, business
+      logic, data access).
+    - Layered Communication: Layers interact only with adjacent layers, promoting clear boundaries.
+    - Modularity: Each layer can be developed, tested, and maintained independently.
+* When to use:
+    - Applications with well-defined responsibilities and interactions.
+    - Systems requiring clear separation between user interface, business logic, and data management.
+    - Scenarios where maintainability and scalability are priorities.
+* Benefits:
+    - Improved maintainability and testability.
+    - Enhanced separation of concerns, leading to clearer architecture.
+    - Easier to manage complexity through modular design.
+* Challenges:
+    - Potential performance overhead due to multiple layers of abstraction.
+    - Risk of over-engineering for simple applications.
+    - Requires careful design to avoid tight coupling between layers.
 
 Can you explain the differences between monolithic, SOA, and microservice architectures?
 
