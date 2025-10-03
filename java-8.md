@@ -71,10 +71,8 @@ Some of the commonly used functional interfaces introduced in Java 8 include:
 ## What is Optional class in Java 8?
 
 The `Optional` class is a container object that may or may not contain a non-null value. It is used to represent
-optional
-values and helps to avoid `NullPointerException`. It provides methods to check for presence, retrieve the value, or
-provide a
-default value.
+optional values and helps to avoid `NullPointerException`. It provides methods to check for presence, retrieve the 
+value, or provide a default value.
 
 ## What is the Date-Time API in Java 8?
 
